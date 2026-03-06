@@ -41,8 +41,8 @@ public class MergeSort extends AbstractSort {
             res.add(right.get(j++));
         }
 
-        for (int k=0; k<res.size(); k++) {
-            mainList.set(L + k, res.get(k));
+        for (int k=0; k<res.size();k++) {
+            mainList.set(L+k,res.get(k));
             incrementInterchanges();
         }
         return res;

@@ -13,10 +13,10 @@ public class BubbleSort extends AbstractSort {
             swapped = false;
             for (int i = 0; i < sz - 1; i++) {
                 incrementComparisons();
-                if (list.get(i) > list.get(i + 1)) {
+                if (list.get(i) > list.get(i+1)) {
                     int temp = list.get(i);
                     list.set(i, list.get(i + 1));
-                    list.set(i + 1, temp);
+                    list.set(i+1, temp);
                     swapped = true;
                     incrementInterchanges();
                 }
