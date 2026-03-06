@@ -1,0 +1,16 @@
+Algorithm,Array Size,Generation Mode,Runs,Avg Time (ms),Min Time (ms),Max Time (ms),Comparisons,Interchanges
+BubbleSort,1788,test3.csv (Row 1),5,18.4766,10.0546,40.3715,1597082,790021
+SelectionSort,1788,test3.csv (Row 1),5,9.7969,2.5659,23.2303,1597578,1787
+InsertionSort,1788,test3.csv (Row 1),5,8.2834,1.4042,22.5081,791805,791805
+MergeSort,1788,test3.csv (Row 1),5,1.7786,1.1610,4.0996,17453,19408
+QuickSort,1788,test3.csv (Row 1),5,0.9283,0.6648,1.9401,22509,10317
+HeapSort,1788,test3.csv (Row 1),5,1.3684,1.3041,1.5140,37484,17848
+
+final conc (STATISTICS PER ALGORITHM)
+Algorithm,Total Cases Tested,Generation Mode,-,Overall Avg Time,Absolute Min Time,Absolute Max Time,Avg Comparisons,Avg Interchanges
+BubbleSort SUMMARY,1,ALL ROWS COMBINED,-,18.4766,10.0546,40.3715,1597082,790021
+SelectionSort SUMMARY,1,ALL ROWS COMBINED,-,9.7969,2.5659,23.2303,1597578,1787
+InsertionSort SUMMARY,1,ALL ROWS COMBINED,-,8.2834,1.4042,22.5081,791805,791805
+MergeSort SUMMARY,1,ALL ROWS COMBINED,-,1.7786,1.1610,4.0996,17453,19408
+QuickSort SUMMARY,1,ALL ROWS COMBINED,-,0.9283,0.6648,1.9401,22509,10317
+HeapSort SUMMARY,1,ALL ROWS COMBINED,-,1.3684,1.3041,1.5140,37484,17848
